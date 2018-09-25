@@ -1,0 +1,3 @@
+ofxMSATensorFlow
+ofxMidi
+ofxMidiFile

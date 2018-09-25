@@ -1,0 +1,1456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A5F49C91527D11866A0BA19 /* jdksmidi_multitrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4137A4282ED94D0DF878067 /* jdksmidi_multitrack.cpp */; };
+		0B507AC399483F66A899CB12 /* jdksmidi_advancedsequencer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 218D439F15760AAAF731B7AF /* jdksmidi_advancedsequencer.cpp */; };
+		0BFC9C20FD7E3C8D5873AA97 /* ofxMidiIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DD359247F3ED1550D8BB5C9 /* ofxMidiIn.cpp */; };
+		1177B3F2F6232D6456B2B53E /* jdksmidi_driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7DFA38ECD8F41C6C71D307 /* jdksmidi_driver.cpp */; };
+		11CD40C3F1FD874964DF86B8 /* jdksmidi_process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF29319EB7B3BFC491A19540 /* jdksmidi_process.cpp */; };
+		16E2FB527F5D62783003B6F2 /* jdksmidi_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3AD62EE0D1EF68EE7046F89 /* jdksmidi_file.cpp */; };
+		1A86B7721CAEBC6F1C572C45 /* ofxBaseMidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94B3C3C21F92F9310CA90986 /* ofxBaseMidi.cpp */; };
+		256051CC1FDFFAD700432807 /* libtensorflow_cc.so in Frameworks */ = {isa = PBXBuildFile; fileRef = 256051CB1FDFFAD700432807 /* libtensorflow_cc.so */; };
+		2B6D931702F16EF86A6B6646 /* jdksmidi_msg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B9A5CDF06765B6FE0328B1D /* jdksmidi_msg.cpp */; };
+		2C700888F99CAE7A9D15DB0E /* jdksmidi_tick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FD0F0B1DAF73E263C97B64C1 /* jdksmidi_tick.cpp */; };
+		3AEFE4FA8AD5C72671AD07F8 /* ofxRtMidiOut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 712B183BC00EBFFB1EEA5AB8 /* ofxRtMidiOut.cpp */; };
+		43367147876AE6A60D75FC58 /* ofxMSATFVizUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B3D4EFB341A3A59BE94FA9 /* ofxMSATFVizUtils.cpp */; };
+		453CF526BB958FBFE6C9E3DB /* jdksmidi_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 986D570DD7D31087C8F7E971 /* jdksmidi_manager.cpp */; };
+		50A8E02E16D285E726859DB6 /* jdksmidi_filereadmultitrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C36371CFBB3321591F6225C /* jdksmidi_filereadmultitrack.cpp */; };
+		54E0114A191F404F0A6BBDE7 /* jdksmidi_filewritemultitrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319ED755B7F454F22669B195 /* jdksmidi_filewritemultitrack.cpp */; };
+		58B158708EE6500738B57955 /* jdksmidi_midi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61C42F2316ED056CAF71EC1D /* jdksmidi_midi.cpp */; };
+		631702104AFC104323A9EB79 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AC32CCCB56FAABA3E1BDE0 /* CoreMIDI.framework */; };
+		63D0FD8734D5760B8080C901 /* RtMidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABDEF0ACF05BF28F5C74E008 /* RtMidi.cpp */; };
+		63F9FE1D90234FA6DE6F509E /* ofxMidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E238CCDE032640E0FEBFAD82 /* ofxMidi.cpp */; };
+		681365FFB8176293024B40BC /* ofxMSATFLayerVisualizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CECDFE510794564BF94DF739 /* ofxMSATFLayerVisualizer.cpp */; };
+		6CF52E8424AAE8C185DD0391 /* jdksmidi_sysex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4EDB284318E6D20490049 /* jdksmidi_sysex.cpp */; };
+		7893FEDF30A9EB533C1D0830 /* ofxMSAMathUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50DDC2A110EBFCF8A9C53292 /* ofxMSAMathUtils.cpp */; };
+		7E1B5035F8E78C3969199525 /* jdksmidi_tempo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 239E3096C39AD201FB6C72F3 /* jdksmidi_tempo.cpp */; };
+		80B8378B6CE24A0B78280DE4 /* ofxMSATFUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48670531819BA39F0A72A1A3 /* ofxMSATFUtils.cpp */; };
+		83D9F930112E0944444124EE /* ofxMidiOut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04F77E5C73A62E2E77C78EC6 /* ofxMidiOut.cpp */; };
+		90FA38C406B4104E94878E0B /* jdksmidi_fileread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C78FCA1B0FCF2E8B359EA /* jdksmidi_fileread.cpp */; };
+		96A5B3CB15A55E0D85F03E4A /* jdksmidi_smpte.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4094EBCACB35B594335DA508 /* jdksmidi_smpte.cpp */; };
+		9F83D0335B06E66AABD1A6BE /* jdksmidi_driverdump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48F82391F678E497D3977EE7 /* jdksmidi_driverdump.cpp */; };
+		A2DCE4D5DF09E396753744D3 /* ofxMSATFImageClassifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A65A4E70CCAF80CC66E43CA /* ofxMSATFImageClassifier.cpp */; };
+		B43E28B2D9C40224F5FC9A8B /* jdksmidi_matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35B7511B4EC04BB493E3BFD6 /* jdksmidi_matrix.cpp */; };
+		B9E75C7A6C333CDD8C18C1D0 /* jdksmidi_edittrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 021799E54AB98B682CAEE5C7 /* jdksmidi_edittrack.cpp */; };
+		BB14DF036146CC319A06A90A /* jdksmidi_fileshow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC35FA0C8FCE721D96149FF4 /* jdksmidi_fileshow.cpp */; };
+		BC105B6272555B3E3BD005BF /* ofxMidiFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2E2AF25AAE38284C32482E1 /* ofxMidiFile.cpp */; };
+		BCBA8A5E581BB728B3CBA017 /* jdksmidi_driverwin32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07EFB3B88DB8304126F145A8 /* jdksmidi_driverwin32.cpp */; };
+		BCC8D420CBA9217E437D2D76 /* ofxRtMidiIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F634AA6CA2E3C60F3B87B59A /* ofxRtMidiIn.cpp */; };
+		BF46BE01D90973F845E18A0C /* jdksmidi_track.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7C80ACCE9DB958EBA0E6724 /* jdksmidi_track.cpp */; };
+		C6FE64F74F1EA1D98C8F9847 /* ofxMidiMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0E7EDA67EDF213FC0E83D17 /* ofxMidiMessage.cpp */; };
+		C901E822D2054FCCBF5C2A45 /* jdksmidi_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 054C40B7025D713E201B674F /* jdksmidi_utils.cpp */; };
+		CB6F4038D9AE6DB58FFBC0FE /* ofxMSATFSimpleModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 338FD955DA84035BAB0918D1 /* ofxMSATFSimpleModel.cpp */; };
+		D620084CF9A86FEE80477D8C /* jdksmidi_keysig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB866C57747A897C062D17BD /* jdksmidi_keysig.cpp */; };
+		DC9A41BC0828B69A0FB85AF6 /* jdksmidi_showcontrol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E10B4B53A299533D75CCCB7 /* jdksmidi_showcontrol.cpp */; };
+		DEE8FBD508A313D10BD2BE27 /* jdksmidi_showcontrolhandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 789CE2CD823F922461659374 /* jdksmidi_showcontrolhandler.cpp */; };
+		E112C01EC836406300A28787 /* jdksmidi_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF465C79302790D7ECAD9F60 /* jdksmidi_queue.cpp */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+		E9592B52B382F94876E59C43 /* jdksmidi_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9CFCC996D23A08B809025DF /* jdksmidi_parser.cpp */; };
+		EDF31613CA8E9DAA287345C4 /* jdksmidi_sequencer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5852431421CCE4CA3AF5FDDB /* jdksmidi_sequencer.cpp */; };
+		F04D2086693E73FDD6446AF0 /* jdksmidi_filewrite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0ED0187F114D3ED2C46F961 /* jdksmidi_filewrite.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		021799E54AB98B682CAEE5C7 /* jdksmidi_edittrack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_edittrack.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_edittrack.cpp; sourceTree = SOURCE_ROOT; };
+		04B3D4EFB341A3A59BE94FA9 /* ofxMSATFVizUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxMSATFVizUtils.cpp; path = ../../../addons/ofxMSATensorFlow/src/ofxMSATFVizUtils.cpp; sourceTree = SOURCE_ROOT; };
+		04F77E5C73A62E2E77C78EC6 /* ofxMidiOut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxMidiOut.cpp; path = ../../../addons/ofxMidi/src/ofxMidiOut.cpp; sourceTree = SOURCE_ROOT; };
+		054C40B7025D713E201B674F /* jdksmidi_utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_utils.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_utils.cpp; sourceTree = SOURCE_ROOT; };
+		05F6CF127D4A621113D4A62F /* ofxMidi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMidi.h; path = ../../../addons/ofxMidi/src/ofxMidi.h; sourceTree = SOURCE_ROOT; };
+		07EFB3B88DB8304126F145A8 /* jdksmidi_driverwin32.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_driverwin32.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/win32/jdksmidi_driverwin32.cpp; sourceTree = SOURCE_ROOT; };
+		0A65A4E70CCAF80CC66E43CA /* ofxMSATFImageClassifier.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxMSATFImageClassifier.cpp; path = ../../../addons/ofxMSATensorFlow/src/ofxMSATFImageClassifier.cpp; sourceTree = SOURCE_ROOT; };
+		0B9A5CDF06765B6FE0328B1D /* jdksmidi_msg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_msg.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_msg.cpp; sourceTree = SOURCE_ROOT; };
+		149DF98A35297CFC8FE7BEB4 /* msg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = msg.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/msg.h; sourceTree = SOURCE_ROOT; };
+		1EECFD18CD2454C509FFAF20 /* sequencer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = sequencer.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/sequencer.h; sourceTree = SOURCE_ROOT; };
+		1F2C78FCA1B0FCF2E8B359EA /* jdksmidi_fileread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_fileread.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_fileread.cpp; sourceTree = SOURCE_ROOT; };
+		208298154B11456DCD0BE131 /* ofxRtMidiIn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxRtMidiIn.h; path = ../../../addons/ofxMidi/src/desktop/ofxRtMidiIn.h; sourceTree = SOURCE_ROOT; };
+		218D439F15760AAAF731B7AF /* jdksmidi_advancedsequencer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_advancedsequencer.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_advancedsequencer.cpp; sourceTree = SOURCE_ROOT; };
+		21B4D9CB064100C12FB9E820 /* edittrack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = edittrack.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/edittrack.h; sourceTree = SOURCE_ROOT; };
+		239E3096C39AD201FB6C72F3 /* jdksmidi_tempo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_tempo.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_tempo.cpp; sourceTree = SOURCE_ROOT; };
+		247D7866DEFA11B712CADB96 /* multitrack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = multitrack.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/multitrack.h; sourceTree = SOURCE_ROOT; };
+		256051CB1FDFFAD700432807 /* libtensorflow_cc.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtensorflow_cc.so; path = "bin/bazel-out/darwin_x86_64-opt/bin/tensorflow/libtensorflow_cc.so"; sourceTree = "<group>"; };
+		2676DE691150D064240B9E9D /* midi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = midi.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/midi.h; sourceTree = SOURCE_ROOT; };
+		298FF73CA2F2234D3B7FC354 /* tick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tick.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/tick.h; sourceTree = SOURCE_ROOT; };
+		319ED755B7F454F22669B195 /* jdksmidi_filewritemultitrack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_filewritemultitrack.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_filewritemultitrack.cpp; sourceTree = SOURCE_ROOT; };
+		338FD955DA84035BAB0918D1 /* ofxMSATFSimpleModel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxMSATFSimpleModel.cpp; path = ../../../addons/ofxMSATensorFlow/src/ofxMSATFSimpleModel.cpp; sourceTree = SOURCE_ROOT; };
+		35B7511B4EC04BB493E3BFD6 /* jdksmidi_matrix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_matrix.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_matrix.cpp; sourceTree = SOURCE_ROOT; };
+		37083DCA811CA54E3FC4BB3B /* queue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = queue.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/queue.h; sourceTree = SOURCE_ROOT; };
+		3B5BA7B8FDC3EE88E5B0F348 /* driverdump.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = driverdump.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/driverdump.h; sourceTree = SOURCE_ROOT; };
+		3CC4EDB284318E6D20490049 /* jdksmidi_sysex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_sysex.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_sysex.cpp; sourceTree = SOURCE_ROOT; };
+		3DD359247F3ED1550D8BB5C9 /* ofxMidiIn.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxMidiIn.cpp; path = ../../../addons/ofxMidi/src/ofxMidiIn.cpp; sourceTree = SOURCE_ROOT; };
+		3E0AAE287F90D80500BBAEC7 /* ofxMSATFVizUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMSATFVizUtils.h; path = ../../../addons/ofxMSATensorFlow/src/ofxMSATFVizUtils.h; sourceTree = SOURCE_ROOT; };
+		4094EBCACB35B594335DA508 /* jdksmidi_smpte.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_smpte.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_smpte.cpp; sourceTree = SOURCE_ROOT; };
+		4310BEFDE24FF04FEBEE8086 /* ofxBaseMidi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxBaseMidi.h; path = ../../../addons/ofxMidi/src/ofxBaseMidi.h; sourceTree = SOURCE_ROOT; };
+		43EB96B3191147B2F2D5798A /* ofxMidiFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMidiFile.h; path = ../../../addons/ofxMidiFile/src/ofxMidiFile.h; sourceTree = SOURCE_ROOT; };
+		46532B724AE4E80B4223E0F6 /* advancedsequencer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = advancedsequencer.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/advancedsequencer.h; sourceTree = SOURCE_ROOT; };
+		470CF04F1D4D1B38D5AA1797 /* ofxRtMidiOut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxRtMidiOut.h; path = ../../../addons/ofxMidi/src/desktop/ofxRtMidiOut.h; sourceTree = SOURCE_ROOT; };
+		48670531819BA39F0A72A1A3 /* ofxMSATFUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxMSATFUtils.cpp; path = ../../../addons/ofxMSATensorFlow/src/ofxMSATFUtils.cpp; sourceTree = SOURCE_ROOT; };
+		48F82391F678E497D3977EE7 /* jdksmidi_driverdump.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_driverdump.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_driverdump.cpp; sourceTree = SOURCE_ROOT; };
+		4BB8F013DC457909D163FE02 /* driverwin32.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = driverwin32.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/driverwin32.h; sourceTree = SOURCE_ROOT; };
+		4E10B4B53A299533D75CCCB7 /* jdksmidi_showcontrol.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_showcontrol.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_showcontrol.cpp; sourceTree = SOURCE_ROOT; };
+		50DDC2A110EBFCF8A9C53292 /* ofxMSAMathUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxMSAMathUtils.cpp; path = ../../../addons/ofxMSATensorFlow/src/ofxMSAMathUtils.cpp; sourceTree = SOURCE_ROOT; };
+		5852431421CCE4CA3AF5FDDB /* jdksmidi_sequencer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_sequencer.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_sequencer.cpp; sourceTree = SOURCE_ROOT; };
+		61526E03FEEC6A27DA92CC08 /* utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = utils.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/utils.h; sourceTree = SOURCE_ROOT; };
+		61880ED8C15804BAA957574A /* matrix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = matrix.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/matrix.h; sourceTree = SOURCE_ROOT; };
+		61C42F2316ED056CAF71EC1D /* jdksmidi_midi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_midi.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_midi.cpp; sourceTree = SOURCE_ROOT; };
+		6602A8EB40CFA6C4DEF07F50 /* filewritemultitrack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = filewritemultitrack.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/filewritemultitrack.h; sourceTree = SOURCE_ROOT; };
+		6649A4D84E0BB0941488AE2F /* world.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = world.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/world.h; sourceTree = SOURCE_ROOT; };
+		6DCCC83912821D3783C9DB5E /* parser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = parser.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/parser.h; sourceTree = SOURCE_ROOT; };
+		712B183BC00EBFFB1EEA5AB8 /* ofxRtMidiOut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxRtMidiOut.cpp; path = ../../../addons/ofxMidi/src/desktop/ofxRtMidiOut.cpp; sourceTree = SOURCE_ROOT; };
+		789CE2CD823F922461659374 /* jdksmidi_showcontrolhandler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_showcontrolhandler.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_showcontrolhandler.cpp; sourceTree = SOURCE_ROOT; };
+		7D24A2B65CDF436CB799B5DD /* tempo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tempo.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/tempo.h; sourceTree = SOURCE_ROOT; };
+		8047C4701936395671959B29 /* ofxMSATFIncludes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMSATFIncludes.h; path = ../../../addons/ofxMSATensorFlow/src/ofxMSATFIncludes.h; sourceTree = SOURCE_ROOT; };
+		81436E53CC4A77E326F659C3 /* ofxMidiOut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMidiOut.h; path = ../../../addons/ofxMidi/src/ofxMidiOut.h; sourceTree = SOURCE_ROOT; };
+		81AC32CCCB56FAABA3E1BDE0 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = /System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<group>"; };
+		84FDC48E67F23E5764A68EBC /* driver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = driver.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/driver.h; sourceTree = SOURCE_ROOT; };
+		938214A2795AA8FED29086DB /* ofxMidiConstants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMidiConstants.h; path = ../../../addons/ofxMidi/src/ofxMidiConstants.h; sourceTree = SOURCE_ROOT; };
+		94B3C3C21F92F9310CA90986 /* ofxBaseMidi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxBaseMidi.cpp; path = ../../../addons/ofxMidi/src/ofxBaseMidi.cpp; sourceTree = SOURCE_ROOT; };
+		952FCF6940D0624E4E0A43C3 /* ofxMSATFImageClassifier.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMSATFImageClassifier.h; path = ../../../addons/ofxMSATensorFlow/src/ofxMSATFImageClassifier.h; sourceTree = SOURCE_ROOT; };
+		986D570DD7D31087C8F7E971 /* jdksmidi_manager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_manager.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_manager.cpp; sourceTree = SOURCE_ROOT; };
+		9A7DFA38ECD8F41C6C71D307 /* jdksmidi_driver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_driver.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_driver.cpp; sourceTree = SOURCE_ROOT; };
+		9B969A00ADD61F65B2B592E9 /* showcontrol.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = showcontrol.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/showcontrol.h; sourceTree = SOURCE_ROOT; };
+		9C36371CFBB3321591F6225C /* jdksmidi_filereadmultitrack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_filereadmultitrack.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_filereadmultitrack.cpp; sourceTree = SOURCE_ROOT; };
+		9EECF99F498FC6F7464A5957 /* smpte.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = smpte.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/smpte.h; sourceTree = SOURCE_ROOT; };
+		A7C80ACCE9DB958EBA0E6724 /* jdksmidi_track.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_track.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_track.cpp; sourceTree = SOURCE_ROOT; };
+		A8793707281FD436C34316A5 /* RtMidi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = RtMidi.h; path = ../../../addons/ofxMidi/libs/rtmidi/RtMidi.h; sourceTree = SOURCE_ROOT; };
+		AB866C57747A897C062D17BD /* jdksmidi_keysig.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_keysig.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_keysig.cpp; sourceTree = SOURCE_ROOT; };
+		ABDEF0ACF05BF28F5C74E008 /* RtMidi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = RtMidi.cpp; path = ../../../addons/ofxMidi/libs/rtmidi/RtMidi.cpp; sourceTree = SOURCE_ROOT; };
+		AC35FA0C8FCE721D96149FF4 /* jdksmidi_fileshow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_fileshow.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_fileshow.cpp; sourceTree = SOURCE_ROOT; };
+		AEC9CF00E3B1FF1D0A197725 /* sysex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = sysex.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/sysex.h; sourceTree = SOURCE_ROOT; };
+		AF442D431CD0A26B51E3D0EA /* ofxMSATFLayerVisualizer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMSATFLayerVisualizer.h; path = ../../../addons/ofxMSATensorFlow/src/ofxMSATFLayerVisualizer.h; sourceTree = SOURCE_ROOT; };
+		AF9C8EAF216BCA0A381005C7 /* showcontrolhandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = showcontrolhandler.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/showcontrolhandler.h; sourceTree = SOURCE_ROOT; };
+		B5B3F2A799F162A4AE306AFB /* filereadmultitrack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = filereadmultitrack.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/filereadmultitrack.h; sourceTree = SOURCE_ROOT; };
+		B76FA489151DBAF1616DF378 /* ofxMidiIn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMidiIn.h; path = ../../../addons/ofxMidi/src/ofxMidiIn.h; sourceTree = SOURCE_ROOT; };
+		BD0E7AC8BE205034D5B377A6 /* ofxMidiMessage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMidiMessage.h; path = ../../../addons/ofxMidi/src/ofxMidiMessage.h; sourceTree = SOURCE_ROOT; };
+		C0E7EDA67EDF213FC0E83D17 /* ofxMidiMessage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxMidiMessage.cpp; path = ../../../addons/ofxMidi/src/ofxMidiMessage.cpp; sourceTree = SOURCE_ROOT; };
+		C3AD62EE0D1EF68EE7046F89 /* jdksmidi_file.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_file.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_file.cpp; sourceTree = SOURCE_ROOT; };
+		C444A175F31FB960F6ECE90E /* fileshow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fileshow.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/fileshow.h; sourceTree = SOURCE_ROOT; };
+		CABE9199C631B6E230EC4672 /* ofxMSATensorFlow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMSATensorFlow.h; path = ../../../addons/ofxMSATensorFlow/src/ofxMSATensorFlow.h; sourceTree = SOURCE_ROOT; };
+		CECDFE510794564BF94DF739 /* ofxMSATFLayerVisualizer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxMSATFLayerVisualizer.cpp; path = ../../../addons/ofxMSATensorFlow/src/ofxMSATFLayerVisualizer.cpp; sourceTree = SOURCE_ROOT; };
+		CF29319EB7B3BFC491A19540 /* jdksmidi_process.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_process.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_process.cpp; sourceTree = SOURCE_ROOT; };
+		CF83984D7467903C51267653 /* manager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = manager.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/manager.h; sourceTree = SOURCE_ROOT; };
+		D0CFDE1B69A46ACA1CDE7F82 /* process.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = process.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/process.h; sourceTree = SOURCE_ROOT; };
+		D5E8A2446899B2C9F4DD35F2 /* ofxMSAMathUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMSAMathUtils.h; path = ../../../addons/ofxMSATensorFlow/src/ofxMSAMathUtils.h; sourceTree = SOURCE_ROOT; };
+		DEDA8AFAF5AB713E51D26DA8 /* ofxMSATFSimpleModel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMSATFSimpleModel.h; path = ../../../addons/ofxMSATensorFlow/src/ofxMSATFSimpleModel.h; sourceTree = SOURCE_ROOT; };
+		E0ED0187F114D3ED2C46F961 /* jdksmidi_filewrite.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_filewrite.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_filewrite.cpp; sourceTree = SOURCE_ROOT; };
+		E16BB73D19DD0713FDCC7986 /* ofxMidiTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMidiTypes.h; path = ../../../addons/ofxMidi/src/ofxMidiTypes.h; sourceTree = SOURCE_ROOT; };
+		E238CCDE032640E0FEBFAD82 /* ofxMidi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxMidi.cpp; path = ../../../addons/ofxMidi/src/ofxMidi.cpp; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* midi_read_ngram_tensorflowDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = midi_read_ngram_tensorflowDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		EAF81578D5371C24E999705D /* filewrite.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = filewrite.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/filewrite.h; sourceTree = SOURCE_ROOT; };
+		EB38EBCE7C801668114D1F17 /* fileread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fileread.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/fileread.h; sourceTree = SOURCE_ROOT; };
+		EDDBD25F005EA617A3C7A035 /* track.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = track.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/track.h; sourceTree = SOURCE_ROOT; };
+		F24C9752A08F209C64C12B37 /* ofxMSATFUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMSATFUtils.h; path = ../../../addons/ofxMSATensorFlow/src/ofxMSATFUtils.h; sourceTree = SOURCE_ROOT; };
+		F2E2AF25AAE38284C32482E1 /* ofxMidiFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxMidiFile.cpp; path = ../../../addons/ofxMidiFile/src/ofxMidiFile.cpp; sourceTree = SOURCE_ROOT; };
+		F4137A4282ED94D0DF878067 /* jdksmidi_multitrack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_multitrack.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_multitrack.cpp; sourceTree = SOURCE_ROOT; };
+		F43FC3DC8B42E1CF3CE9012C /* song.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = song.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/song.h; sourceTree = SOURCE_ROOT; };
+		F634AA6CA2E3C60F3B87B59A /* ofxRtMidiIn.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxRtMidiIn.cpp; path = ../../../addons/ofxMidi/src/desktop/ofxRtMidiIn.cpp; sourceTree = SOURCE_ROOT; };
+		F7C76FC87C0E5A05D54D7067 /* file.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = file.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/file.h; sourceTree = SOURCE_ROOT; };
+		F9CFCC996D23A08B809025DF /* jdksmidi_parser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_parser.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_parser.cpp; sourceTree = SOURCE_ROOT; };
+		FD0F0B1DAF73E263C97B64C1 /* jdksmidi_tick.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_tick.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_tick.cpp; sourceTree = SOURCE_ROOT; };
+		FE8EF1BA41C370C9302E2A27 /* keysig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = keysig.h; path = ../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi/keysig.h; sourceTree = SOURCE_ROOT; };
+		FF465C79302790D7ECAD9F60 /* jdksmidi_queue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jdksmidi_queue.cpp; path = ../../../addons/ofxMidiFile/libs/jdksmidi/src/jdksmidi_queue.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256051CC1FDFFAD700432807 /* libtensorflow_cc.so in Frameworks */,
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+				631702104AFC104323A9EB79 /* CoreMIDI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2413C01760B1811BED0F502D /* ofxMidi */ = {
+			isa = PBXGroup;
+			children = (
+				9CBF51184BE294FD9D73043F /* src */,
+				5A08CCDC8D19E7162DE57128 /* libs */,
+				36D7EC7EF50E326EAC88A0AD /* frameworks */,
+			);
+			name = ofxMidi;
+			sourceTree = "<group>";
+		};
+		2E0835C4A5B734D78A015D9D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				77C8ABBA062851A9287A5241 /* jdksmidi */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		337078EB753FB7EF6E5E8255 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F2E2AF25AAE38284C32482E1 /* ofxMidiFile.cpp */,
+				43EB96B3191147B2F2D5798A /* ofxMidiFile.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		35A52E7CCD02A0358E259E7E /* ofxMSATensorFlow */ = {
+			isa = PBXGroup;
+			children = (
+				63CB5192B46AD7987D95937E /* src */,
+			);
+			name = ofxMSATensorFlow;
+			sourceTree = "<group>";
+		};
+		36D7EC7EF50E326EAC88A0AD /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81AC32CCCB56FAABA3E1BDE0 /* CoreMIDI.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		3FA1D55C3E515D14470716D5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				218D439F15760AAAF731B7AF /* jdksmidi_advancedsequencer.cpp */,
+				9A7DFA38ECD8F41C6C71D307 /* jdksmidi_driver.cpp */,
+				48F82391F678E497D3977EE7 /* jdksmidi_driverdump.cpp */,
+				021799E54AB98B682CAEE5C7 /* jdksmidi_edittrack.cpp */,
+				C3AD62EE0D1EF68EE7046F89 /* jdksmidi_file.cpp */,
+				1F2C78FCA1B0FCF2E8B359EA /* jdksmidi_fileread.cpp */,
+				9C36371CFBB3321591F6225C /* jdksmidi_filereadmultitrack.cpp */,
+				AC35FA0C8FCE721D96149FF4 /* jdksmidi_fileshow.cpp */,
+				E0ED0187F114D3ED2C46F961 /* jdksmidi_filewrite.cpp */,
+				319ED755B7F454F22669B195 /* jdksmidi_filewritemultitrack.cpp */,
+				AB866C57747A897C062D17BD /* jdksmidi_keysig.cpp */,
+				986D570DD7D31087C8F7E971 /* jdksmidi_manager.cpp */,
+				35B7511B4EC04BB493E3BFD6 /* jdksmidi_matrix.cpp */,
+				61C42F2316ED056CAF71EC1D /* jdksmidi_midi.cpp */,
+				0B9A5CDF06765B6FE0328B1D /* jdksmidi_msg.cpp */,
+				F4137A4282ED94D0DF878067 /* jdksmidi_multitrack.cpp */,
+				F9CFCC996D23A08B809025DF /* jdksmidi_parser.cpp */,
+				CF29319EB7B3BFC491A19540 /* jdksmidi_process.cpp */,
+				FF465C79302790D7ECAD9F60 /* jdksmidi_queue.cpp */,
+				5852431421CCE4CA3AF5FDDB /* jdksmidi_sequencer.cpp */,
+				4E10B4B53A299533D75CCCB7 /* jdksmidi_showcontrol.cpp */,
+				789CE2CD823F922461659374 /* jdksmidi_showcontrolhandler.cpp */,
+				4094EBCACB35B594335DA508 /* jdksmidi_smpte.cpp */,
+				3CC4EDB284318E6D20490049 /* jdksmidi_sysex.cpp */,
+				239E3096C39AD201FB6C72F3 /* jdksmidi_tempo.cpp */,
+				FD0F0B1DAF73E263C97B64C1 /* jdksmidi_tick.cpp */,
+				A7C80ACCE9DB958EBA0E6724 /* jdksmidi_track.cpp */,
+				054C40B7025D713E201B674F /* jdksmidi_utils.cpp */,
+				B4056594EE538A7AB2662BCB /* win32 */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		5A08CCDC8D19E7162DE57128 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				945CEFADFB0DF400A92A507C /* rtmidi */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		63CB5192B46AD7987D95937E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				50DDC2A110EBFCF8A9C53292 /* ofxMSAMathUtils.cpp */,
+				D5E8A2446899B2C9F4DD35F2 /* ofxMSAMathUtils.h */,
+				CABE9199C631B6E230EC4672 /* ofxMSATensorFlow.h */,
+				0A65A4E70CCAF80CC66E43CA /* ofxMSATFImageClassifier.cpp */,
+				952FCF6940D0624E4E0A43C3 /* ofxMSATFImageClassifier.h */,
+				8047C4701936395671959B29 /* ofxMSATFIncludes.h */,
+				CECDFE510794564BF94DF739 /* ofxMSATFLayerVisualizer.cpp */,
+				AF442D431CD0A26B51E3D0EA /* ofxMSATFLayerVisualizer.h */,
+				338FD955DA84035BAB0918D1 /* ofxMSATFSimpleModel.cpp */,
+				DEDA8AFAF5AB713E51D26DA8 /* ofxMSATFSimpleModel.h */,
+				48670531819BA39F0A72A1A3 /* ofxMSATFUtils.cpp */,
+				F24C9752A08F209C64C12B37 /* ofxMSATFUtils.h */,
+				04B3D4EFB341A3A59BE94FA9 /* ofxMSATFVizUtils.cpp */,
+				3E0AAE287F90D80500BBAEC7 /* ofxMSATFVizUtils.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		77C8ABBA062851A9287A5241 /* jdksmidi */ = {
+			isa = PBXGroup;
+			children = (
+				46532B724AE4E80B4223E0F6 /* advancedsequencer.h */,
+				84FDC48E67F23E5764A68EBC /* driver.h */,
+				3B5BA7B8FDC3EE88E5B0F348 /* driverdump.h */,
+				4BB8F013DC457909D163FE02 /* driverwin32.h */,
+				21B4D9CB064100C12FB9E820 /* edittrack.h */,
+				F7C76FC87C0E5A05D54D7067 /* file.h */,
+				EB38EBCE7C801668114D1F17 /* fileread.h */,
+				B5B3F2A799F162A4AE306AFB /* filereadmultitrack.h */,
+				C444A175F31FB960F6ECE90E /* fileshow.h */,
+				EAF81578D5371C24E999705D /* filewrite.h */,
+				6602A8EB40CFA6C4DEF07F50 /* filewritemultitrack.h */,
+				FE8EF1BA41C370C9302E2A27 /* keysig.h */,
+				CF83984D7467903C51267653 /* manager.h */,
+				61880ED8C15804BAA957574A /* matrix.h */,
+				2676DE691150D064240B9E9D /* midi.h */,
+				149DF98A35297CFC8FE7BEB4 /* msg.h */,
+				247D7866DEFA11B712CADB96 /* multitrack.h */,
+				6DCCC83912821D3783C9DB5E /* parser.h */,
+				D0CFDE1B69A46ACA1CDE7F82 /* process.h */,
+				37083DCA811CA54E3FC4BB3B /* queue.h */,
+				1EECFD18CD2454C509FFAF20 /* sequencer.h */,
+				9B969A00ADD61F65B2B592E9 /* showcontrol.h */,
+				AF9C8EAF216BCA0A381005C7 /* showcontrolhandler.h */,
+				9EECF99F498FC6F7464A5957 /* smpte.h */,
+				F43FC3DC8B42E1CF3CE9012C /* song.h */,
+				AEC9CF00E3B1FF1D0A197725 /* sysex.h */,
+				7D24A2B65CDF436CB799B5DD /* tempo.h */,
+				298FF73CA2F2234D3B7FC354 /* tick.h */,
+				EDDBD25F005EA617A3C7A035 /* track.h */,
+				61526E03FEEC6A27DA92CC08 /* utils.h */,
+				6649A4D84E0BB0941488AE2F /* world.h */,
+			);
+			name = jdksmidi;
+			sourceTree = "<group>";
+		};
+		945CEFADFB0DF400A92A507C /* rtmidi */ = {
+			isa = PBXGroup;
+			children = (
+				ABDEF0ACF05BF28F5C74E008 /* RtMidi.cpp */,
+				A8793707281FD436C34316A5 /* RtMidi.h */,
+			);
+			name = rtmidi;
+			sourceTree = "<group>";
+		};
+		99DED6A5D3EDE030B1A80348 /* desktop */ = {
+			isa = PBXGroup;
+			children = (
+				F634AA6CA2E3C60F3B87B59A /* ofxRtMidiIn.cpp */,
+				208298154B11456DCD0BE131 /* ofxRtMidiIn.h */,
+				712B183BC00EBFFB1EEA5AB8 /* ofxRtMidiOut.cpp */,
+				470CF04F1D4D1B38D5AA1797 /* ofxRtMidiOut.h */,
+			);
+			name = desktop;
+			sourceTree = "<group>";
+		};
+		9CBF51184BE294FD9D73043F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				99DED6A5D3EDE030B1A80348 /* desktop */,
+				94B3C3C21F92F9310CA90986 /* ofxBaseMidi.cpp */,
+				4310BEFDE24FF04FEBEE8086 /* ofxBaseMidi.h */,
+				E238CCDE032640E0FEBFAD82 /* ofxMidi.cpp */,
+				05F6CF127D4A621113D4A62F /* ofxMidi.h */,
+				938214A2795AA8FED29086DB /* ofxMidiConstants.h */,
+				3DD359247F3ED1550D8BB5C9 /* ofxMidiIn.cpp */,
+				B76FA489151DBAF1616DF378 /* ofxMidiIn.h */,
+				C0E7EDA67EDF213FC0E83D17 /* ofxMidiMessage.cpp */,
+				BD0E7AC8BE205034D5B377A6 /* ofxMidiMessage.h */,
+				04F77E5C73A62E2E77C78EC6 /* ofxMidiOut.cpp */,
+				81436E53CC4A77E326F659C3 /* ofxMidiOut.h */,
+				E16BB73D19DD0713FDCC7986 /* ofxMidiTypes.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		A3792C5A8F4BC35D81FACD1F /* jdksmidi */ = {
+			isa = PBXGroup;
+			children = (
+				2E0835C4A5B734D78A015D9D /* include */,
+				3FA1D55C3E515D14470716D5 /* src */,
+			);
+			name = jdksmidi;
+			sourceTree = "<group>";
+		};
+		B4056594EE538A7AB2662BCB /* win32 */ = {
+			isa = PBXGroup;
+			children = (
+				07EFB3B88DB8304126F145A8 /* jdksmidi_driverwin32.cpp */,
+			);
+			name = win32;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				35A52E7CCD02A0358E259E7E /* ofxMSATensorFlow */,
+				2413C01760B1811BED0F502D /* ofxMidi */,
+				C3D7748BF1F10F86E3FC8C08 /* ofxMidiFile */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		C3D7748BF1F10F86E3FC8C08 /* ofxMidiFile */ = {
+			isa = PBXGroup;
+			children = (
+				337078EB753FB7EF6E5E8255 /* src */,
+				FCCBDBF422D99B5BE0C77D1D /* libs */,
+			);
+			name = ofxMidiFile;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				256051CB1FDFFAD700432807 /* libtensorflow_cc.so */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* midi_read_ngram_tensorflowDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		FCCBDBF422D99B5BE0C77D1D /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				A3792C5A8F4BC35D81FACD1F /* jdksmidi */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* midi_read_ngram_tensorflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "midi_read_ngram_tensorflow" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = midi_read_ngram_tensorflow;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* midi_read_ngram_tensorflowDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "midi_read_ngram_tensorflow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* midi_read_ngram_tensorflow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				7893FEDF30A9EB533C1D0830 /* ofxMSAMathUtils.cpp in Sources */,
+				A2DCE4D5DF09E396753744D3 /* ofxMSATFImageClassifier.cpp in Sources */,
+				681365FFB8176293024B40BC /* ofxMSATFLayerVisualizer.cpp in Sources */,
+				CB6F4038D9AE6DB58FFBC0FE /* ofxMSATFSimpleModel.cpp in Sources */,
+				80B8378B6CE24A0B78280DE4 /* ofxMSATFUtils.cpp in Sources */,
+				43367147876AE6A60D75FC58 /* ofxMSATFVizUtils.cpp in Sources */,
+				BCC8D420CBA9217E437D2D76 /* ofxRtMidiIn.cpp in Sources */,
+				3AEFE4FA8AD5C72671AD07F8 /* ofxRtMidiOut.cpp in Sources */,
+				1A86B7721CAEBC6F1C572C45 /* ofxBaseMidi.cpp in Sources */,
+				63F9FE1D90234FA6DE6F509E /* ofxMidi.cpp in Sources */,
+				0BFC9C20FD7E3C8D5873AA97 /* ofxMidiIn.cpp in Sources */,
+				C6FE64F74F1EA1D98C8F9847 /* ofxMidiMessage.cpp in Sources */,
+				83D9F930112E0944444124EE /* ofxMidiOut.cpp in Sources */,
+				63D0FD8734D5760B8080C901 /* RtMidi.cpp in Sources */,
+				BC105B6272555B3E3BD005BF /* ofxMidiFile.cpp in Sources */,
+				0B507AC399483F66A899CB12 /* jdksmidi_advancedsequencer.cpp in Sources */,
+				1177B3F2F6232D6456B2B53E /* jdksmidi_driver.cpp in Sources */,
+				9F83D0335B06E66AABD1A6BE /* jdksmidi_driverdump.cpp in Sources */,
+				B9E75C7A6C333CDD8C18C1D0 /* jdksmidi_edittrack.cpp in Sources */,
+				16E2FB527F5D62783003B6F2 /* jdksmidi_file.cpp in Sources */,
+				90FA38C406B4104E94878E0B /* jdksmidi_fileread.cpp in Sources */,
+				50A8E02E16D285E726859DB6 /* jdksmidi_filereadmultitrack.cpp in Sources */,
+				BB14DF036146CC319A06A90A /* jdksmidi_fileshow.cpp in Sources */,
+				F04D2086693E73FDD6446AF0 /* jdksmidi_filewrite.cpp in Sources */,
+				54E0114A191F404F0A6BBDE7 /* jdksmidi_filewritemultitrack.cpp in Sources */,
+				D620084CF9A86FEE80477D8C /* jdksmidi_keysig.cpp in Sources */,
+				453CF526BB958FBFE6C9E3DB /* jdksmidi_manager.cpp in Sources */,
+				B43E28B2D9C40224F5FC9A8B /* jdksmidi_matrix.cpp in Sources */,
+				58B158708EE6500738B57955 /* jdksmidi_midi.cpp in Sources */,
+				2B6D931702F16EF86A6B6646 /* jdksmidi_msg.cpp in Sources */,
+				0A5F49C91527D11866A0BA19 /* jdksmidi_multitrack.cpp in Sources */,
+				E9592B52B382F94876E59C43 /* jdksmidi_parser.cpp in Sources */,
+				11CD40C3F1FD874964DF86B8 /* jdksmidi_process.cpp in Sources */,
+				E112C01EC836406300A28787 /* jdksmidi_queue.cpp in Sources */,
+				EDF31613CA8E9DAA287345C4 /* jdksmidi_sequencer.cpp in Sources */,
+				DC9A41BC0828B69A0FB85AF6 /* jdksmidi_showcontrol.cpp in Sources */,
+				DEE8FBD508A313D10BD2BE27 /* jdksmidi_showcontrolhandler.cpp in Sources */,
+				96A5B3CB15A55E0D85F03E4A /* jdksmidi_smpte.cpp in Sources */,
+				6CF52E8424AAE8C185DD0391 /* jdksmidi_sysex.cpp in Sources */,
+				7E1B5035F8E78C3969199525 /* jdksmidi_tempo.cpp in Sources */,
+				2C700888F99CAE7A9D15DB0E /* jdksmidi_tick.cpp in Sources */,
+				BF46BE01D90973F845E18A0C /* jdksmidi_track.cpp in Sources */,
+				C901E822D2054FCCBF5C2A45 /* jdksmidi_utils.cpp in Sources */,
+				BCBA8A5E581BB728B3CBA017 /* jdksmidi_driverwin32.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../addons/ofxMSATensorFlow/libs,
+					../../../addons/ofxMSATensorFlow/libs/google,
+					../../../addons/ofxMSATensorFlow/libs/google/include,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/cpp,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/csharp,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/java,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/javanano,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/js,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/objectivec,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/php,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/python,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/ruby,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/io,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/stubs,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/util,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/Eigen,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/Eigen/src,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/client,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/framework,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/gradients,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/ops,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two/00000123,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two/00000123/variables,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_main_op,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_main_op/00000123,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_main_op/00000123/variables,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_pbtxt,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_pbtxt/00000123,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_pbtxt/00000123/variables,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/training,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/common_runtime,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/common_runtime/gpu,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/common_runtime/sycl,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/debug,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/distributed_runtime,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/distributed_runtime/rpc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/example,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/example/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/framework,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/graph,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/clusters,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/costs,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/inputs,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/optimizers,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/utils,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/kernels,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/kernels/hexagon,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/kernels/neon,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/kernels/spectrogram_test_data,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/bmp,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/bmp/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/core,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/gif,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/gif/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/gtl,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/hash,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/histogram,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/io,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/io/snappy,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/jpeg,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/jpeg/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/lmdb,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/lmdb/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/math,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/monitoring,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/png,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/png/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/random,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/strings,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/wav,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/ops,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/ops/compat,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/cloud,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/cloud/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/default,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/default/gpu,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/hadoop,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/hexagon,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/posix,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/profile_utils,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/windows,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler/g3doc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler/internal,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler/internal/advisor,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler/internal/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/protobuf,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/public,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/util,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/util/ctc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/util/sparse,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/util/tensor_bundle,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/Eigen,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen/CXX11,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen/CXX11/src,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen/CXX11/src/NeuralNetworks,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/Tensor,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/TensorSymmetry,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/TensorSymmetry/util,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/ThreadPool,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/util,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/AutoDiff,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/BVH,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/Eigenvalues,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/EulerAngles,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/FFT,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/IterativeSolvers,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/KroneckerProduct,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/LevenbergMarquardt,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/MatrixFunctions,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/MoreVectorization,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/NonLinearOptimization,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/NumericalDiff,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/Polynomials,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/Skyline,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/SparseExtra,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/SpecialFunctions,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/SpecialFunctions/arch,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/SpecialFunctions/arch/CUDA,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/Splines,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/doc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/test,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/test/mpreal,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/lib,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/lib/osx,
+					../../../addons/ofxMSATensorFlow/src,
+					../../../addons/ofxMidi/libs,
+					../../../addons/ofxMidi/libs/pgmidi,
+					../../../addons/ofxMidi/libs/rtmidi,
+					../../../addons/ofxMidi/src,
+					../../../addons/ofxMidi/src/desktop,
+					../../../addons/ofxMidi/src/ios,
+					../../../addons/ofxMidiFile/libs,
+					../../../addons/ofxMidiFile/libs/jdksmidi,
+					../../../addons/ofxMidiFile/libs/jdksmidi/include,
+					../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi,
+					../../../addons/ofxMidiFile/libs/jdksmidi/src,
+					../../../addons/ofxMidiFile/libs/jdksmidi/src/win32,
+					../../../addons/ofxMidiFile/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/lib/osx/libtensorflow_cc.so,
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../addons/ofxMSATensorFlow/libs,
+					../../../addons/ofxMSATensorFlow/libs/google,
+					../../../addons/ofxMSATensorFlow/libs/google/include,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/cpp,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/csharp,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/java,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/javanano,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/js,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/objectivec,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/php,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/python,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/ruby,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/io,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/stubs,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/util,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/Eigen,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/Eigen/src,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/client,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/framework,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/gradients,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/ops,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two/00000123,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two/00000123/variables,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_main_op,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_main_op/00000123,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_main_op/00000123/variables,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_pbtxt,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_pbtxt/00000123,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_pbtxt/00000123/variables,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/training,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/common_runtime,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/common_runtime/gpu,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/common_runtime/sycl,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/debug,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/distributed_runtime,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/distributed_runtime/rpc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/example,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/example/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/framework,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/graph,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/clusters,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/costs,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/inputs,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/optimizers,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/utils,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/kernels,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/kernels/hexagon,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/kernels/neon,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/kernels/spectrogram_test_data,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/bmp,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/bmp/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/core,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/gif,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/gif/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/gtl,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/hash,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/histogram,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/io,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/io/snappy,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/jpeg,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/jpeg/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/lmdb,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/lmdb/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/math,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/monitoring,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/png,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/png/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/random,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/strings,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/wav,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/ops,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/ops/compat,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/cloud,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/cloud/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/default,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/default/gpu,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/hadoop,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/hexagon,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/posix,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/profile_utils,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/windows,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler/g3doc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler/internal,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler/internal/advisor,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler/internal/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/protobuf,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/public,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/util,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/util/ctc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/util/sparse,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/util/tensor_bundle,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/Eigen,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen/CXX11,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen/CXX11/src,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen/CXX11/src/NeuralNetworks,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/Tensor,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/TensorSymmetry,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/TensorSymmetry/util,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/ThreadPool,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/util,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/AutoDiff,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/BVH,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/Eigenvalues,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/EulerAngles,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/FFT,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/IterativeSolvers,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/KroneckerProduct,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/LevenbergMarquardt,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/MatrixFunctions,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/MoreVectorization,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/NonLinearOptimization,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/NumericalDiff,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/Polynomials,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/Skyline,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/SparseExtra,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/SpecialFunctions,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/SpecialFunctions/arch,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/SpecialFunctions/arch/CUDA,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/Splines,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/doc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/test,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/test/mpreal,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/lib,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/lib/osx,
+					../../../addons/ofxMSATensorFlow/src,
+					../../../addons/ofxMidi/libs,
+					../../../addons/ofxMidi/libs/pgmidi,
+					../../../addons/ofxMidi/libs/rtmidi,
+					../../../addons/ofxMidi/src,
+					../../../addons/ofxMidi/src/desktop,
+					../../../addons/ofxMidi/src/ios,
+					../../../addons/ofxMidiFile/libs,
+					../../../addons/ofxMidiFile/libs/jdksmidi,
+					../../../addons/ofxMidiFile/libs/jdksmidi/include,
+					../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi,
+					../../../addons/ofxMidiFile/libs/jdksmidi/src,
+					../../../addons/ofxMidiFile/libs/jdksmidi/src/win32,
+					../../../addons/ofxMidiFile/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/lib/osx/libtensorflow_cc.so,
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					/System/Library/Frameworks,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../addons/ofxMSATensorFlow/libs,
+					../../../addons/ofxMSATensorFlow/libs/google,
+					../../../addons/ofxMSATensorFlow/libs/google/include,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/cpp,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/csharp,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/java,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/javanano,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/js,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/objectivec,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/php,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/python,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/ruby,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/io,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/stubs,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/util,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/Eigen,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/Eigen/src,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/client,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/framework,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/gradients,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/ops,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two/00000123,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two/00000123/variables,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_main_op,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_main_op/00000123,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_main_op/00000123/variables,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_pbtxt,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_pbtxt/00000123,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_pbtxt/00000123/variables,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/training,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/common_runtime,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/common_runtime/gpu,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/common_runtime/sycl,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/debug,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/distributed_runtime,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/distributed_runtime/rpc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/example,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/example/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/framework,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/graph,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/clusters,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/costs,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/inputs,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/optimizers,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/utils,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/kernels,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/kernels/hexagon,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/kernels/neon,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/kernels/spectrogram_test_data,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/bmp,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/bmp/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/core,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/gif,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/gif/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/gtl,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/hash,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/histogram,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/io,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/io/snappy,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/jpeg,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/jpeg/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/lmdb,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/lmdb/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/math,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/monitoring,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/png,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/png/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/random,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/strings,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/wav,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/ops,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/ops/compat,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/cloud,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/cloud/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/default,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/default/gpu,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/hadoop,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/hexagon,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/posix,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/profile_utils,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/windows,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler/g3doc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler/internal,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler/internal/advisor,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler/internal/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/protobuf,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/public,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/util,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/util/ctc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/util/sparse,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/util/tensor_bundle,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/Eigen,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen/CXX11,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen/CXX11/src,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen/CXX11/src/NeuralNetworks,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/Tensor,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/TensorSymmetry,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/TensorSymmetry/util,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/ThreadPool,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/util,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/AutoDiff,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/BVH,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/Eigenvalues,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/EulerAngles,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/FFT,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/IterativeSolvers,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/KroneckerProduct,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/LevenbergMarquardt,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/MatrixFunctions,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/MoreVectorization,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/NonLinearOptimization,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/NumericalDiff,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/Polynomials,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/Skyline,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/SparseExtra,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/SpecialFunctions,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/SpecialFunctions/arch,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/SpecialFunctions/arch/CUDA,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/Splines,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/doc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/test,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/test/mpreal,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/lib,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/lib/osx,
+					../../../addons/ofxMSATensorFlow/src,
+					../../../addons/ofxMidi/libs,
+					../../../addons/ofxMidi/libs/pgmidi,
+					../../../addons/ofxMidi/libs/rtmidi,
+					../../../addons/ofxMidi/src,
+					../../../addons/ofxMidi/src/desktop,
+					../../../addons/ofxMidi/src/ios,
+					../../../addons/ofxMidiFile/libs,
+					../../../addons/ofxMidiFile/libs/jdksmidi,
+					../../../addons/ofxMidiFile/libs/jdksmidi/include,
+					../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi,
+					../../../addons/ofxMidiFile/libs/jdksmidi/src,
+					../../../addons/ofxMidiFile/libs/jdksmidi/src/win32,
+					../../../addons/ofxMidiFile/src,
+				);
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/lib/osx/libtensorflow_cc.so,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					/System/Library/Frameworks,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../addons/ofxMSATensorFlow/libs,
+					../../../addons/ofxMSATensorFlow/libs/google,
+					../../../addons/ofxMSATensorFlow/libs/google/include,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/cpp,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/csharp,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/java,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/javanano,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/js,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/objectivec,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/php,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/python,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/compiler/ruby,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/io,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/stubs,
+					../../../addons/ofxMSATensorFlow/libs/google/include/google/protobuf/util,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/Eigen,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/Eigen/src,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/client,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/framework,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/gradients,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/ops,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two/00000123,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two/00000123/variables,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_main_op,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_main_op/00000123,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_main_op/00000123/variables,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_pbtxt,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_pbtxt/00000123,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/saved_model/testdata/half_plus_two_pbtxt/00000123/variables,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/cc/training,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/common_runtime,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/common_runtime/gpu,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/common_runtime/sycl,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/debug,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/distributed_runtime,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/distributed_runtime/rpc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/example,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/example/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/framework,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/graph,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/clusters,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/costs,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/inputs,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/optimizers,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/grappler/utils,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/kernels,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/kernels/hexagon,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/kernels/neon,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/kernels/spectrogram_test_data,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/bmp,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/bmp/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/core,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/gif,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/gif/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/gtl,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/hash,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/histogram,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/io,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/io/snappy,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/jpeg,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/jpeg/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/lmdb,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/lmdb/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/math,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/monitoring,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/png,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/png/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/random,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/strings,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/lib/wav,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/ops,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/ops/compat,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/cloud,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/cloud/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/default,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/default/gpu,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/hadoop,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/hexagon,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/posix,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/profile_utils,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/platform/windows,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler/g3doc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler/internal,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler/internal/advisor,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/profiler/internal/testdata,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/protobuf,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/public,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/util,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/util/ctc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/util/sparse,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/tensorflow/core/util/tensor_bundle,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/Eigen,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen/CXX11,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen/CXX11/src,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/third_party/eigen3/unsupported/Eigen/CXX11/src/NeuralNetworks,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/Tensor,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/TensorSymmetry,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/TensorSymmetry/util,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/ThreadPool,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/CXX11/src/util,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/AutoDiff,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/BVH,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/Eigenvalues,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/EulerAngles,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/FFT,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/IterativeSolvers,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/KroneckerProduct,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/LevenbergMarquardt,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/MatrixFunctions,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/MoreVectorization,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/NonLinearOptimization,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/NumericalDiff,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/Polynomials,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/Skyline,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/SparseExtra,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/SpecialFunctions,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/SpecialFunctions/arch,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/SpecialFunctions/arch/CUDA,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/Eigen/src/Splines,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/doc,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/test,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/include/unsupported/test/mpreal,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/lib,
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/lib/osx,
+					../../../addons/ofxMSATensorFlow/src,
+					../../../addons/ofxMidi/libs,
+					../../../addons/ofxMidi/libs/pgmidi,
+					../../../addons/ofxMidi/libs/rtmidi,
+					../../../addons/ofxMidi/src,
+					../../../addons/ofxMidi/src/desktop,
+					../../../addons/ofxMidi/src/ios,
+					../../../addons/ofxMidiFile/libs,
+					../../../addons/ofxMidiFile/libs/jdksmidi,
+					../../../addons/ofxMidiFile/libs/jdksmidi/include,
+					../../../addons/ofxMidiFile/libs/jdksmidi/include/jdksmidi,
+					../../../addons/ofxMidiFile/libs/jdksmidi/src,
+					../../../addons/ofxMidiFile/libs/jdksmidi/src/win32,
+					../../../addons/ofxMidiFile/src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					../../../addons/ofxMSATensorFlow/libs/tensorflow/lib/osx/libtensorflow_cc.so,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "midi_read_ngram_tensorflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "midi_read_ngram_tensorflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
